@@ -12,11 +12,11 @@ var width = 500;
 var margin = {left:50,right:50,top:40,bottom:0};
 
 var y = d3.scaleLinear()
-            .domain([0,d3.max(dataArray)])
+            .domain([0,d3.max(data)])
             .range([height,0]);
-var x = d3.scaleTime()
-            .domain(d3.extent(dataYears,function(d){ return parseDate(d); }))
-            .range([0,width]);
+//var x = d3.scaleTime()
+//            .domain(d3.extent(dataYears,function(d){ return parseDate(d); }))
+//            .range([0,width]);
 
 
 
@@ -30,7 +30,7 @@ var area = d3.area()
 var svg = d3.select("body").append("svg").attr("height","100%").attr("width","100%");
 var chartGroup = svg.append("g").attr("transform","translate("+margin.left+","+margin.top+")");
 
-chartGroup.append("path").attr("d",area(dataArray));
+chartGroup.append("path").attr("d",area(data));
 chartGroup.append("g")
       .attr("class","axis y")
       .call(yAxis);
