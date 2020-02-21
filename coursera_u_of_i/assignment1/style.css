@@ -14,10 +14,59 @@ g.group0 circle {
 }
 
 g.tick line {
-  stroke: blue;
+  stroke: black;
 }
 
 g.tick text {
-  font-size: 12px;
-  fill: purple;
+  font-size: 10px;
+  fill: black;
 }
+
+path.line {
+  fill: none;
+}
+
+#global {
+  stroke: rgb(153, 115, 0);
+  stroke-width: 5px
+}
+#line64n-90n {
+  stroke: red;
+  stroke-width: .5px;
+}
+#line44n-64n {
+  stroke: blue;
+  stroke-width: .5px;
+}
+#line24n-44n {
+  stroke: orange;
+  stroke-width: .5px;
+}
+#lineequ-24n {
+  stroke: cyan;
+  stroke-width: .5px;
+}
+#line24s-equ {
+  stroke: purple;
+  stroke-width: .5px;
+}
+#line44s-24s {
+  stroke: black;
+  stroke-width: .5px;
+}
+#line64s-44s {
+  stroke: yellow;
+  stroke-width: .5px;
+}
+#line90s-64s {
+  stroke: gray;
+  stroke-width: .5px;
+}
+#line44n-64n path:hover {
+  stroke-width: 5px;
+}
+
+.legend rect {
+  fill:white;
+  stroke:black;
+  opacity:0.8;}
