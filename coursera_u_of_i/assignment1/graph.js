@@ -172,6 +172,7 @@ svg.append("text")
           "translate(" + (width/2 + doublemarginleft) + " ," +
                          (height + margin.top) + ")")
     .style("text-anchor", "middle")
+    .style("font-family", "Monospace")
     .text("Year");
 
 // text label for the y axis
@@ -181,75 +182,93 @@ svg.append("text")
     .attr("x",0 - (height / 2))
     .attr("dy", "1em")
     .style("text-anchor", "middle")
-    .text("Value");
+    .style("font-family", "Monospace")
+    .text("Annual Mean Land-Ocean Temperature Index (0.01°C)");
 
-var legendpositionleft = doublemarginleft + 20;
-var legendpositiontop = margin.top + 20;
+var title = svg.append("text")
+    .attr("y", 20)
+    .attr("x", width/2+margin.left)
+    .attr("dy", "2em")
+    .style("text-anchor", "middle")
+    .style("font-family", "Monospace")
+    .style("font-size", "20px")
+    .text("Global Average Temperature Changes Over Time");
 
-var legend = svg.append("rect")
+var legendpositionleft = width - 230;
+var legendpositiontop = height - 220;
+
+var legendGroup = svg.append("g").attr("class", "legend-group").attr("transform", "translate("+legendpositionleft+","+legendpositiontop+")");
+
+var legend = legendGroup.append("rect")
         .attr("height", 140)
         .attr("width", 150)
-        .attr("transform", "translate("+legendpositionleft+","+legendpositiontop+")")
+        .attr("transform", "translate("+120+","+60+")")
         .style("stroke", "gray")
         .style("fill", "none");
+var text1 = legendGroup.append("text")
+        .attr("y", 55)
+        .attr("x", 120)
+        .style("text-anchor", "start")
+        .style("font-family", "Monospace")
+        .text("LEGEND");
 
-var line1 = svg.append("line")
+var line1 = legendGroup.append("line")
         .attr("x1", 130)
         .attr("x2", 150)
         .attr("y1", 70)
         .attr("y2", 70)
         .style("stroke", "rgb(153, 115, 0)")
-        .style("strokeWidth", ".5");
-var line2 = svg.append("line")
+        .style("stroke-width", "5px");
+var line2 = legendGroup.append("line")
         .attr("x1", 130)
         .attr("x2", 150)
         .attr("y1", 85)
         .attr("y2", 85)
         .style("stroke", "red")
         .style("strokeWidth", ".5");
-var line3 = svg.append("line")
+var line3 = legendGroup.append("line")
         .attr("x1", 130)
         .attr("x2", 150)
         .attr("y1", 100)
         .attr("y2", 100)
         .style("stroke", "blue")
         .style("strokeWidth", ".5");
-var line4 = svg.append("line")
+var line4 = legendGroup.append("line")
         .attr("x1", 130)
         .attr("x2", 150)
         .attr("y1", 115)
         .attr("y2", 115)
         .style("stroke", "orange")
         .style("strokeWidth", ".5");
-var line5 = svg.append("line")
+var line5 = legendGroup.append("line")
         .attr("x1", 130)
         .attr("x2", 150)
         .attr("y1", 130)
         .attr("y2", 130)
         .style("stroke", "cyan")
         .style("strokeWidth", ".5");
-var line6 = svg.append("line")
+var line6 = legendGroup.append("line")
         .attr("x1", 130)
         .attr("x2", 150)
         .attr("y1", 145)
         .attr("y2", 145)
         .style("stroke", "purple")
         .style("strokeWidth", ".5");
-var line7 = svg.append("line")
+var line7 = legendGroup.append("line")
         .attr("x1", 130)
         .attr("x2", 150)
         .attr("y1", 160)
         .attr("y2", 160)
         .style("stroke", "black")
         .style("strokeWidth", ".5");
-var line8 = svg.append("line")
+var line8 = legendGroup.append("line")
         .attr("x1", 130)
         .attr("x2", 150)
         .attr("y1", 175)
         .attr("y2", 175)
-        .style("stroke", "yellow")
+        .style("stroke", "green")
         .style("strokeWidth", ".5");
-var line9 = svg.append("line")
+var line9 = legendGroup.append("line")
         .attr("x1", 130)
         .attr("x2", 150)
         .attr("y1", 190)
@@ -257,55 +276,55 @@ var line9 = svg.append("line")
         .style("stroke", "gray")
         .style("strokeWidth", ".5");
 
-var text1 = svg.append("text")
+var text1 = legendGroup.append("text")
         .attr("y", 75)
         .attr("x", 160)
         .style("text-anchor", "start")
         .style("font-family", "Monospace")
         .text("Global");
-var text2 = svg.append("text")
+var text2 = legendGroup.append("text")
         .attr("y", 90)
         .attr("x", 160)
         .style("text-anchor", "start")
         .style("font-family", "Monospace")
         .text("90N - 64N");
-var text3 = svg.append("text")
+var text3 = legendGroup.append("text")
         .attr("y", 105)
         .attr("x", 160)
         .style("text-anchor", "start")
         .style("font-family", "Monospace")
         .text("64N - 44N");
-var text4 = svg.append("text")
+var text4 = legendGroup.append("text")
         .attr("y", 120)
         .attr("x", 160)
         .style("text-anchor", "start")
         .style("font-family", "Monospace")
         .text("44N - 24N");
-var text5 = svg.append("text")
+var text5 = legendGroup.append("text")
         .attr("y", 135)
         .attr("x", 160)
         .style("text-anchor", "start")
         .style("font-family", "Monospace")
         .text("24N - Equator");
-var text6 = svg.append("text")
+var text6 = legendGroup.append("text")
         .attr("y", 150)
         .attr("x", 160)
         .style("text-anchor", "start")
         .style("font-family", "Monospace")
         .text("Equator - 24S");
-var text7 = svg.append("text")
+var text7 = legendGroup.append("text")
         .attr("y", 165)
         .attr("x", 160)
         .style("text-anchor", "start")
         .style("font-family", "Monospace")
         .text("24S - 44S");
-var text8 = svg.append("text")
+var text8 = legendGroup.append("text")
         .attr("y", 180)
         .attr("x", 160)
         .style("text-anchor", "start")
         .style("font-family", "Monospace")
         .text("44S - 64S");
-var text9 = svg.append("text")
+var text9 = legendGroup.append("text")
         .attr("y", 195)
         .attr("x", 160)
         .style("text-anchor", "start")

@@ -28,42 +28,42 @@ path.line {
 
 #global {
   stroke: rgb(153, 115, 0);
-  stroke-width: 5px
+  stroke-width: 10px
 }
 #line64n-90n {
   stroke: red;
-  stroke-width: .5px;
+  stroke-width: .3px;
 }
 #line44n-64n {
   stroke: blue;
-  stroke-width: .5px;
+  stroke-width: .3px;
 }
 #line24n-44n {
   stroke: orange;
-  stroke-width: .5px;
+  stroke-width: .3px;
 }
 #lineequ-24n {
   stroke: cyan;
-  stroke-width: .5px;
+  stroke-width: .3px;
 }
 #line24s-equ {
   stroke: purple;
-  stroke-width: .5px;
+  stroke-width: .3px;
 }
 #line44s-24s {
   stroke: black;
-  stroke-width: .5px;
+  stroke-width: .3px;
 }
 #line64s-44s {
-  stroke: yellow;
-  stroke-width: .5px;
+  stroke: green;
+  stroke-width: .3px;
 }
 #line90s-64s {
   stroke: gray;
-  stroke-width: .5px;
+  stroke-width: .3px;
 }
 #line44n-64n path:hover {
-  stroke-width: 5px;
+  stroke-width: 10px;
 }
 
 .legend rect {
