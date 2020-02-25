@@ -5,16 +5,22 @@ var width = 860;
 
 var svg = d3.select("svg");
 
-
-var links_data = d3.csv("https://raw.githubusercontent.com/dogherder/datavisualization/master/coursera_u_of_i/assignment2/9_11_HIJACKERS_ADJACENCY_LIST.csv")
+/*
+d3.csv("https://raw.githubusercontent.com/dogherder/datavisualization/master/coursera_u_of_i/assignment2/9_11_HIJACKERS_ADJACENCY_LIST.csv")
   .row(function(d) {
-    console.log(d);
-    return {source: d.source, target: d.target} })
+    return { source: d.source, target: d.target} })
   .get(function(error,data) {
-//  console.log(data);
-});
+    if(error) throw error;
 
-//console.log(links_data);
+    var link = svg.append("g")
+        .attr("class", "links")
+      .selectAll("line")
+      .data(data.links)
+      .enter().append("line")
+        .attr("stroke-width", function(d) {return Math.sqrt(d.value); });
+}); */
+
+console.log(links_data[0].links[0].source);
 
 var node_data = d3.csv("https://raw.githubusercontent.com/dogherder/datavisualization/master/coursera_u_of_i/assignment2/9_11_HIJACKERS_ATTR.csv").get(function(error,data) {
   return {
