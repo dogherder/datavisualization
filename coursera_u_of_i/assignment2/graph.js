@@ -4,9 +4,13 @@ var height = 600;
 var width = 860;
 
 var svg = d3.select("svg");
-
-d3.csv("9_11_HIJACKERS_ASSOCIATES.csv").get(function(error,data) {
-  console.log(data[0]);
+/*
+d3.csv("https://raw.githubusercontent.com/dogherder/datavisualization/master/coursera_u_of_i/assignment2/9_11_HIJACKERS_ASSOCIATES.csv").get(function(error,data) {
+  console.log(data);
+});
+*/
+d3.csv("https://raw.githubusercontent.com/dogherder/datavisualization/master/coursera_u_of_i/assignment2/9_11_HIJACKERS_ATTR.csv").get(function(error,data) {
+  console.log(data);
 });
 
 /*
