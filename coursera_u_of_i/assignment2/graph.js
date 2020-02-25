@@ -6,7 +6,7 @@ var width = 860;
 var svg = d3.select("svg");
 
 
-var links_data = d3.json("https://raw.githubusercontent.com/dogherder/datavisualization/master/coursera_u_of_i/assignment2/9_11_HIJACKERS_ADJACENCY_LIST.json").get(function(error,data) {
+var links_data = d3.csv("https://raw.githubusercontent.com/dogherder/datavisualization/master/coursera_u_of_i/assignment2/9_11_HIJACKERS_ADJACENCY_LIST.csv").get(function(error,data) {
   console.log(data);
 //  return {
 //    source: data[0]
