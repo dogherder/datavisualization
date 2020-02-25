@@ -5,17 +5,22 @@ var width = 860;
 
 var svg = d3.select("svg");
 
+/*
 var links_data = d3.csv("https://raw.githubusercontent.com/dogherder/datavisualization/master/coursera_u_of_i/assignment2/9_11_HIJACKERS_ASSOCIATES.csv").get(function(error,data) {
   console.log(data);
   for (var i = 0; i < data.length; i++) {
     console.log(data[i].Id);
   }
-});
-/*
+  return {
+    source: data.Id
+
+  };
+}); */
+
 d3.csv("https://raw.githubusercontent.com/dogherder/datavisualization/master/coursera_u_of_i/assignment2/9_11_HIJACKERS_ATTR.csv").get(function(error,data) {
   console.log(data);
 });
-*/
+
 /*
 var color = d3.scaleOrdinal(d3.schemeCategory20);
 
