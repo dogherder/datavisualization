@@ -217,7 +217,7 @@ var line1 = legendGroup.append("line")
         .attr("x2", 150)
         .attr("y1", 70)
         .attr("y2", 70)
-        .style("stroke", "rgb(153, 115, 0)")
+        .style("stroke", "rgb(248, 3, 252)")
         .style("stroke-width", "5px");
 var line2 = legendGroup.append("line")
         .attr("x1", 130)

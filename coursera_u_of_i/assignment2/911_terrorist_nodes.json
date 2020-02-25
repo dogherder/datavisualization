@@ -1,0 +1,429 @@
+[
+  {
+    "Id": 1,
+    "Terrorist": "Majed Moqed",
+    "Network Strength": 1,
+    "Ties": 2,
+    "Las Vegas Meeting": 0
+  },
+  {
+    "Id": 2,
+    "Terrorist": "Khalid Al-Mihdhar",
+    "Network Strength": 1,
+    "Ties": 2,
+    "Las Vegas Meeting": 0
+  },
+  {
+    "Id": 3,
+    "Terrorist": "Hani Hanjour",
+    "Network Strength": 1,
+    "Ties": 2,
+    "Las Vegas Meeting": 1
+  },
+  {
+    "Id": 4,
+    "Terrorist": "Nawaf Alhazmi",
+    "Network Strength": 1,
+    "Ties": 2,
+    "Las Vegas Meeting": 1
+  },
+  {
+    "Id": 5,
+    "Terrorist": "Salem Alhazmi*",
+    "Network Strength": 1,
+    "Ties": 2,
+    "Las Vegas Meeting": 1
+  },
+  {
+    "Id": 6,
+    "Terrorist": "Ahmed Alnami",
+    "Network Strength": 1,
+    "Ties": 3,
+    "Las Vegas Meeting": 0
+  },
+  {
+    "Id": 7,
+    "Terrorist": "Ahmed Alghamdi",
+    "Network Strength": 1,
+    "Ties": 4,
+    "Las Vegas Meeting": 0
+  },
+  {
+    "Id": 8,
+    "Terrorist": "Saeed Alghamdi*",
+    "Network Strength": 1,
+    "Ties": 3,
+    "Las Vegas Meeting": 0
+  },
+  {
+    "Id": 9,
+    "Terrorist": "Hamza Alghamdi",
+    "Network Strength": 1,
+    "Ties": 4,
+    "Las Vegas Meeting": 0
+  },
+  {
+    "Id": 10,
+    "Terrorist": "Ahmed Al Haznawi",
+    "Network Strength": 1,
+    "Ties": 3,
+    "Las Vegas Meeting": 0
+  },
+  {
+    "Id": 11,
+    "Terrorist": "Mohand Alshehri*",
+    "Network Strength": 1,
+    "Ties": 4,
+    "Las Vegas Meeting": 0
+  },
+  {
+    "Id": 12,
+    "Terrorist": "Fayez Ahmed",
+    "Network Strength": 1,
+    "Ties": 4,
+    "Las Vegas Meeting": 0
+  },
+  {
+    "Id": 13,
+    "Terrorist": "Ziad Jarrah",
+    "Network Strength": 1,
+    "Ties": 3,
+    "Las Vegas Meeting": 1
+  },
+  {
+    "Id": 14,
+    "Terrorist": "Marwan Al-Shehhi",
+    "Network Strength": 1,
+    "Ties": 4,
+    "Las Vegas Meeting": 1
+  },
+  {
+    "Id": 15,
+    "Terrorist": "Mohamed Atta",
+    "Network Strength": 1,
+    "Ties": 1,
+    "Las Vegas Meeting": 1
+  },
+  {
+    "Id": 16,
+    "Terrorist": "Abdul Aziz Al-Omari*",
+    "Network Strength": 1,
+    "Ties": 1,
+    "Las Vegas Meeting": 0
+  },
+  {
+    "Id": 17,
+    "Terrorist": "Waleed Alshehri",
+    "Network Strength": 1,
+    "Ties": 1,
+    "Las Vegas Meeting": 0
+  },
+  {
+    "Id": 18,
+    "Terrorist": "Wail Alshehri",
+    "Network Strength": 1,
+    "Ties": 1,
+    "Las Vegas Meeting": 0
+  },
+  {
+    "Id": 19,
+    "Terrorist": "Satam Suqami",
+    "Network Strength": 1,
+    "Ties": 1,
+    "Las Vegas Meeting": 0
+  },
+  {
+    "Id": 20,
+    "Terrorist": "Raed Hijazi",
+    "Network Strength": 2,
+    "Ties": 5,
+    "Las Vegas Meeting": 0
+  },
+  {
+    "Id": 21,
+    "Terrorist": "Nabil al-Marabh",
+    "Network Strength": 2,
+    "Ties": 5,
+    "Las Vegas Meeting": 0
+  },
+  {
+    "Id": 22,
+    "Terrorist": "Mustafa Ahamend al-Hisawi",
+    "Network Strength": 2,
+    "Ties": 5,
+    "Las Vegas Meeting": 0
+  },
+  {
+    "Id": 23,
+    "Terrorist": "Mamoun Darkazanli",
+    "Network Strength": 2,
+    "Ties": 5,
+    "Las Vegas Meeting": 0
+  },
+  {
+    "Id": 24,
+    "Terrorist": "Zakariya Essabar",
+    "Network Strength": 2,
+    "Ties": 5,
+    "Las Vegas Meeting": 0
+  },
+  {
+    "Id": 25,
+    "Terrorist": "Said Bahaji",
+    "Network Strength": 2,
+    "Ties": 5,
+    "Las Vegas Meeting": 0
+  },
+  {
+    "Id": 26,
+    "Terrorist": "Mounir El Motassadeq",
+    "Network Strength": 2,
+    "Ties": 5,
+    "Las Vegas Meeting": 0
+  },
+  {
+    "Id": 27,
+    "Terrorist": "Zacarias Moussaoui",
+    "Network Strength": 2,
+    "Ties": 5,
+    "Las Vegas Meeting": 0
+  },
+  {
+    "Id": 28,
+    "Terrorist": "Ramzi Bin al-Shibh",
+    "Network Strength": 2,
+    "Ties": 5,
+    "Las Vegas Meeting": 0
+  },
+  {
+    "Id": 29,
+    "Terrorist": "Agus Budiman",
+    "Network Strength": 2,
+    "Ties": 5,
+    "Las Vegas Meeting": 0
+  },
+  {
+    "Id": 30,
+    "Terrorist": "Ahed Khalil Ibrahim Samir Al-Ani",
+    "Network Strength": 2,
+    "Ties": 5,
+    "Las Vegas Meeting": 0
+  },
+  {
+    "Id": 31,
+    "Terrorist": "Lofti Raissi",
+    "Network Strength": 2,
+    "Ties": 5,
+    "Las Vegas Meeting": 0
+  },
+  {
+    "Id": 32,
+    "Terrorist": "Rayed Mohammed Abdullah",
+    "Network Strength": 2,
+    "Ties": 5,
+    "Las Vegas Meeting": 0
+  },
+  {
+    "Id": 33,
+    "Terrorist": "Bandar Alhazmi",
+    "Network Strength": 2,
+    "Ties": 5,
+    "Las Vegas Meeting": 0
+  },
+  {
+    "Id": 34,
+    "Terrorist": "Faisal Al Salmi",
+    "Network Strength": 2,
+    "Ties": 5,
+    "Las Vegas Meeting": 0
+  },
+  {
+    "Id": 35,
+    "Terrorist": "Osama Awadallah",
+    "Network Strength": 2,
+    "Ties": 5,
+    "Las Vegas Meeting": 0
+  },
+  {
+    "Id": 36,
+    "Terrorist": "Abdussattar Shaikh",
+    "Network Strength": 2,
+    "Ties": 5,
+    "Las Vegas Meeting": 0
+  },
+  {
+    "Id": 37,
+    "Terrorist": "Mohamed Abdi",
+    "Network Strength": 2,
+    "Ties": 5,
+    "Las Vegas Meeting": 0
+  },
+  {
+    "Id": 38,
+    "Terrorist": "Mohamed Belfas",
+    "Network Strength": 2,
+    "Ties": 5,
+    "Las Vegas Meeting": 0
+  },
+  {
+    "Id": 39,
+    "Terrorist": "Imad Eddin Baraat Yarkas",
+    "Network Strength": 2,
+    "Ties": 5,
+    "Las Vegas Meeting": 0
+  },
+  {
+    "Id": 40,
+    "Terrorist": "Tarek Maaroufi",
+    "Network Strength": 2,
+    "Ties": 5,
+    "Las Vegas Meeting": 0
+  },
+  {
+    "Id": 41,
+    "Terrorist": "Abu Qatada",
+    "Network Strength": 2,
+    "Ties": 5,
+    "Las Vegas Meeting": 0
+  },
+  {
+    "Id": 42,
+    "Terrorist": "Djamal Benghal",
+    "Network Strength": 2,
+    "Ties": 5,
+    "Las Vegas Meeting": 0
+  },
+  {
+    "Id": 43,
+    "Terrorist": "Jerome Courtaillier",
+    "Network Strength": 2,
+    "Ties": 5,
+    "Las Vegas Meeting": 0
+  },
+  {
+    "Id": 44,
+    "Terrorist": "David Courtaillier",
+    "Network Strength": 2,
+    "Ties": 5,
+    "Las Vegas Meeting": 0
+  },
+  {
+    "Id": 45,
+    "Terrorist": "Ahmen Ressam",
+    "Network Strength": 2,
+    "Ties": 5,
+    "Las Vegas Meeting": 0
+  },
+  {
+    "Id": 46,
+    "Terrorist": "Abu Walid",
+    "Network Strength": 2,
+    "Ties": 5,
+    "Las Vegas Meeting": 0
+  },
+  {
+    "Id": 47,
+    "Terrorist": "Jean-Marc Grandvisir",
+    "Network Strength": 2,
+    "Ties": 5,
+    "Las Vegas Meeting": 0
+  },
+  {
+    "Id": 48,
+    "Terrorist": "Abu Zubeida",
+    "Network Strength": 2,
+    "Ties": 5,
+    "Las Vegas Meeting": 0
+  },
+  {
+    "Id": 49,
+    "Terrorist": "Nizar Trabelsi",
+    "Network Strength": 2,
+    "Ties": 5,
+    "Las Vegas Meeting": 0
+  },
+  {
+    "Id": 50,
+    "Terrorist": "Haydar Abu Doha",
+    "Network Strength": 2,
+    "Ties": 5,
+    "Las Vegas Meeting": 0
+  },
+  {
+    "Id": 51,
+    "Terrorist": "Mehdi Khammoun",
+    "Network Strength": 2,
+    "Ties": 5,
+    "Las Vegas Meeting": 0
+  },
+  {
+    "Id": 52,
+    "Terrorist": "Mohammed Bensakhria",
+    "Network Strength": 2,
+    "Ties": 5,
+    "Las Vegas Meeting": 0
+  },
+  {
+    "Id": 53,
+    "Terrorist": "Lased Ben Heni",
+    "Network Strength": 2,
+    "Ties": 5,
+    "Las Vegas Meeting": 0
+  },
+  {
+    "Id": 54,
+    "Terrorist": "Essid Sami Ben Khemail",
+    "Network Strength": 2,
+    "Ties": 5,
+    "Las Vegas Meeting": 0
+  },
+  {
+    "Id": 55,
+    "Terrorist": "Seifallah ben Hassine",
+    "Network Strength": 2,
+    "Ties": 5,
+    "Las Vegas Meeting": 0
+  },
+  {
+    "Id": 56,
+    "Terrorist": "Essoussi Laaroussi",
+    "Network Strength": 2,
+    "Ties": 5,
+    "Las Vegas Meeting": 0
+  },
+  {
+    "Id": 57,
+    "Terrorist": "Takek Maaroufi",
+    "Network Strength": 2,
+    "Ties": 5,
+    "Las Vegas Meeting": 0
+  },
+  {
+    "Id": 58,
+    "Terrorist": "Fahid al Shakri",
+    "Network Strength": 2,
+    "Ties": 5,
+    "Las Vegas Meeting": 0
+  },
+  {
+    "Id": 59,
+    "Terrorist": "Madjid Sahoune",
+    "Network Strength": 2,
+    "Ties": 5,
+    "Las Vegas Meeting": 0
+  },
+  {
+    "Id": 60,
+    "Terrorist": "Samir Kishk",
+    "Network Strength": 2,
+    "Ties": 5,
+    "Las Vegas Meeting": 0
+  },
+  {
+    "Id": 61,
+    "Terrorist": "Kamel Daoudi",
+    "Network Strength": 2,
+    "Ties": 5,
+    "Las Vegas Meeting": 0
+  }
+]
