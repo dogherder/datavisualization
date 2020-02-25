@@ -6,20 +6,23 @@ var width = 860;
 var svg = d3.select("svg");
 
 
-var links_data = d3.csv("https://raw.githubusercontent.com/dogherder/datavisualization/master/coursera_u_of_i/assignment2/9_11_HIJACKERS_ADJACENCY_LIST.csv").get(function(error,data) {
-  console.log(data);
-//  return {
-//    source: data[0]
-//    target: data[1]
-//  }
+var links_data = d3.csv("https://raw.githubusercontent.com/dogherder/datavisualization/master/coursera_u_of_i/assignment2/9_11_HIJACKERS_ADJACENCY_LIST.csv")
+  .row(function(d) {
+    console.log(d);
+    return {source: d.source, target: d.target} })
+  .get(function(error,data) {
+//  console.log(data);
 });
 
+//console.log(links_data);
 
-/*
-d3.csv("https://raw.githubusercontent.com/dogherder/datavisualization/master/coursera_u_of_i/assignment2/9_11_HIJACKERS_ATTR.csv").get(function(error,data) {
-  console.log(data);
+var node_data = d3.csv("https://raw.githubusercontent.com/dogherder/datavisualization/master/coursera_u_of_i/assignment2/9_11_HIJACKERS_ATTR.csv").get(function(error,data) {
+  return {
+    data
+  }
 });
-*/
+
+//console.log(node_data);
 
 /*
 var color = d3.scaleOrdinal(d3.schemeCategory20);
