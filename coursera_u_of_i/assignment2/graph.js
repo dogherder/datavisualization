@@ -8,13 +8,12 @@ var svg = d3.select("svg");
 
 var links_data = d3.json("https://raw.githubusercontent.com/dogherder/datavisualization/master/coursera_u_of_i/assignment2/9_11_HIJACKERS_ADJACENCY_LIST.json").get(function(error,data) {
   console.log(data);
-  return {
+//  return {
 //    source: data[0]
 //    target: data[1]
-  }
+//  }
 });
 
-console.log(links_data);
 
 /*
 d3.csv("https://raw.githubusercontent.com/dogherder/datavisualization/master/coursera_u_of_i/assignment2/9_11_HIJACKERS_ATTR.csv").get(function(error,data) {
