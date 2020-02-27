@@ -34,7 +34,7 @@ d3.json("https://raw.githubusercontent.com/dogherder/datavisualization/master/co
       .enter().append("g")
 
   var circles = node.append("circle")
-      .attr("r", function(d) { return d.indegrees; })
+      .attr("r", function(d) { return d.indegrees+1; })
       .attr("fill", function(d) { return color(d.ties); })
       .call(d3.drag()
           .on("start", dragstarted)
