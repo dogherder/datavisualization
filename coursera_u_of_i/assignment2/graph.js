@@ -25,7 +25,7 @@ d3.json("https://raw.githubusercontent.com/dogherder/datavisualization/master/co
       .selectAll("line")
       .data(graph.links)
       .enter().append("line")
-          .attr("stroke-width", function(d) {return d.strength^2; });
+          .attr("stroke-width", 1);
 
   var node = svg.append("g")
         .attr("class", "nodes")
@@ -34,7 +34,7 @@ d3.json("https://raw.githubusercontent.com/dogherder/datavisualization/master/co
       .enter().append("g")
 
   var circles = node.append("circle")
-      .attr("r", function(d) { return d.indegrees+1; })
+      .attr("r", function(d) { return d.indegrees*2; })
       .attr("fill", function(d) { return color(d.ties); })
       .call(d3.drag()
           .on("start", dragstarted)
@@ -93,6 +93,15 @@ function dragended(d) {
   d.fy = null;
 }
 
+var title = svg.append("text")
+    .attr("y", 20)
+    .attr("x", width/2+margin.left)
+    .attr("dy", "2em")
+    .style("text-anchor", "middle")
+    .style("font-family", "Monospace")
+    .style("font-size", "20px")
+    .text("The 911 Hijacker Terrorist Network");
+
 var legendpositionleft = width - 330;
 var legendpositiontop = height - 220;
 
@@ -100,7 +109,7 @@ var legendGroup = svg.append("g").attr("class", "legend-group").attr("transform"
 
 var legend = legendGroup.append("rect")
         .attr("height", 85)
-        .attr("width", 135)
+        .attr("width", 155)
         .attr("transform", "translate("+125+","+60+")")
         .style("stroke", "gray")
         .style("fill", "none");
