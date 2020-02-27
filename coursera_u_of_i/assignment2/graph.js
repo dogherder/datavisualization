@@ -34,7 +34,7 @@ d3.json("https://raw.githubusercontent.com/dogherder/datavisualization/master/co
       .enter().append("g")
 
   var circles = node.append("circle")
-      .attr("r", 5)
+      .attr("r", function(d) { return d.indegrees; })
       .attr("fill", function(d) { return color(d.ties); })
       .call(d3.drag()
           .on("start", dragstarted)
@@ -160,7 +160,7 @@ var text4 = legendGroup.append("text")
         .attr("x", 160)
         .style("text-anchor", "start")
         .style("font-family", "Monospace")
-        .text("//UA #175 WTC South");     //UA #175 WTC South
+        .text("UA #175 WTC South");     //UA #175 WTC South
 var text5 = legendGroup.append("text")
         .attr("y", 135)
         .attr("x", 160)
