@@ -7,7 +7,7 @@
       {"id": 5, "terrorist": "Salem Alhazmi", "strength": 1, "ties": 2, "vegas": 1, "indegrees": 1},
       {"id": 6, "terrorist": "Ahmed Alnami", "strength": 1, "ties": 3, "vegas": 0, "indegrees": 4},
       {"id": 7, "terrorist": "Ahmed Alghamdi", "strength": 1, "ties": 4, "vegas": 0, "indegrees": 2},
-      {"id": 8, "terrorist": "Saeed Alghamdi*", "strength": 1, "ties": 3, "vegas": 0, "indegrees": 6},
+      {"id": 8, "terrorist": "Saeed Alghamdi", "strength": 1, "ties": 3, "vegas": 0, "indegrees": 6},
       {"id": 9, "terrorist": "Hamza Alghamdi", "strength": 1, "ties": 4, "vegas": 0, "indegrees": 7},
       {"id": 10, "terrorist": "Ahmed Al Haznawi", "strength": 1, "ties": 3, "vegas": 0, "indegrees": 3},
       {"id": 11, "terrorist": "Mohand Alshehri", "strength": 1, "ties": 4, "vegas": 0, "indegrees": 2},
